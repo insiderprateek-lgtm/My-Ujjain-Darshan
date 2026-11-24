@@ -4,9 +4,9 @@ import http from 'node:http';
 
 const port = Number(process.env.PORT) || 3000;
 const bootHandler = (_req, res) => {
-  res.statusCode = 503;
+  res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain; charset=utf-8');
-  res.end('Starting My Ujjain Darshan…');
+  res.end('My Ujjain Darshan is starting.');
 };
 const server = http.createServer(bootHandler);
 
