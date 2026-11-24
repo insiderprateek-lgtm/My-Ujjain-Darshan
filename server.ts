@@ -3,7 +3,6 @@ import express, { Request, Response } from 'express';
 import path from 'path';
 import crypto from 'crypto';
 import { fileURLToPath } from 'url';
-import { createServer as createViteServer } from 'vite';
 import { asc, desc, eq } from 'drizzle-orm';
 
 import { db } from './src/db/index.ts';
@@ -1378,6 +1377,7 @@ ${allPaths
 
 async function startServer() {
   if (process.env.NODE_ENV !== 'production') {
+    const { createServer: createViteServer } = await import('vite');
     const vite = await createViteServer({
       server: { middlewareMode: true },
       appType: 'spa',
