@@ -1,0 +1,2001 @@
+# MASTER PROMPT: BUILD A WORLD-CLASS PREMIUM SPIRITUAL TRAVEL WEBSITE FOR "MY UJJAIN DARSHAN"
+
+## 1. YOUR ROLE AND RESPONSIBILITY
+
+You are an elite multidisciplinary digital product team consisting of:
+
+- A world-class creative director with 25+ years of luxury brand design experience.
+- An award-winning UI/UX designer specializing in immersive travel and hospitality experiences.
+- An expert full-stack developer.
+- A senior motion designer specializing in sophisticated web interactions.
+- An expert in conversion rate optimization for travel businesses.
+- A travel content strategist specializing in Indian spiritual tourism.
+- An SEO specialist with deep knowledge of destination-based search intent.
+- A meticulous quality assurance engineer.
+
+Your responsibility is to **design, develop, test, and deliver a production-ready, exceptionally premium website** for a spiritual tourism and travel company named **My Ujjain Darshan**.
+
+Do not produce a generic travel agency website. Do not produce a basic landing page. Do not produce a template-looking design with some travel images and booking buttons.
+
+Build a complete, sophisticated, highly immersive digital experience with rich content, outstanding visual hierarchy, thoughtful animations, powerful storytelling, seamless navigation, and functioning enquiry systems.
+
+The final product should feel like it was commissioned from a renowned international digital design agency specializing in premium experiential travel brands.
+
+This is a real business website, not a concept, demo, or visual experiment.
+
+**Important: Do not stop after producing a plan, wireframe, or homepage. Implement the complete website and all necessary functionality.**
+
+---
+
+# 2. BUSINESS INFORMATION
+
+**Brand Name:** My Ujjain Darshan
+
+**Business Category:** Spiritual tourism, pilgrimage experiences, guided sightseeing, curated tours, travel packages, taxi services, airport transfers, and personalized journeys.
+
+**Location:** Ujjain, Madhya Pradesh, India
+
+**Primary Phone:** +91 95222 33375
+
+**WhatsApp:** +91 95222 33375
+
+**WhatsApp Link:** https://wa.me/919522233375
+
+**Telephone Link:** tel:+919522233375
+
+**Primary Destination:** Ujjain
+
+**Secondary Destinations:** Omkareshwar, Maheshwar, Mandu, Indore, Dewas, Bhopal, Sanchi, Pachmarhi, Amarkantak, and relevant nearby spiritual destinations.
+
+**Brand Positioning:**
+
+My Ujjain Darshan is a premium spiritual travel brand dedicated to creating meaningful, comfortable, memorable, and thoughtfully curated journeys.
+
+We are not merely transporting visitors between locations. We are helping travelers experience the sacred culture, historical significance, rituals, temples, legends, architecture, and living heritage of Ujjain and Madhya Pradesh.
+
+**Suggested Brand Tagline:**
+
+"Beyond Darshan. A Journey Within."
+
+Alternative messaging:
+
+"Discover the Sacred Soul of Ujjain."
+
+"Where Every Journey Finds Meaning."
+
+"Experience Ujjain, Beyond the Ordinary."
+
+Use exceptional editorial judgment. Choose the most appropriate brand messaging and maintain consistency across the website.
+
+Avoid excessive religious clichés, aggressive sales language, and generic tourism slogans.
+
+The tone must be spiritual, elevated, welcoming, sophisticated, authentic, warm, and trustworthy.
+
+---
+
+# 3. LOGO AND BRAND IDENTITY
+
+I will attach the official My Ujjain Darshan logo to the project.
+
+**CRITICAL INSTRUCTIONS:**
+
+1. Inspect the attached logo carefully.
+2. Derive the primary brand color palette from the original artwork.
+3. Preserve the logo's original proportions, typography, iconography, and visual identity.
+4. Do not redraw, regenerate, distort, or reinterpret the logo.
+5. Use the original logo asset throughout the website.
+6. Create properly optimized logo variations only when technically necessary and without changing its design.
+7. Use an appropriate favicon based on the supplied mark.
+8. Ensure the logo works on light and dark backgrounds.
+9. Maintain professional clear space around the logo.
+10. Never stretch the logo or apply unnecessary visual effects.
+
+The brand is expected to have a refined maroon-led spiritual identity, potentially complemented by subtle saffron, muted gold, ivory, and warm neutral tones.
+
+However, **the uploaded logo is the final authority for brand colors**.
+
+Suggested provisional palette, to be adjusted after examining the logo:
+
+- Deep Heritage Maroon: #651D32
+- Warm Ivory: #FAF7F1
+- Muted Antique Gold: #B89555
+- Saffron Accent: #CC733A
+- Charcoal: #262321
+- Muted Stone: #857C74
+
+Avoid metallic gradients, cheap gold effects, excessive shadows, neon colors, loud orange backgrounds, or overdecorated religious graphics.
+
+The final identity should feel timeless and intelligently designed.
+
+---
+
+# 4. REFERENCE WEBSITE: RESEARCH AND CONTENT MIGRATION
+
+**Reference website:** https://ujjaintourtravels.in/
+
+Before starting development:
+
+1. Visit and examine the reference website.
+2. Analyze all travel packages, their descriptions, destinations, pricing, vehicle information, and available service details.
+3. Identify every listed travel service and package.
+4. Capture the original package names, advertised rates, and relevant factual details.
+5. Create a normalized, structured package dataset.
+6. Retain a clear record of where each reference price or factual claim originated.
+7. Cross-check destination descriptions and temple information using reliable sources.
+8. Use the reference site as a source for **service coverage and factual package information**, not as a visual design template.
+
+Do not reproduce the reference website's visual design, source code, brand assets, copyrighted photography, original marketing copy, customer testimonials, or proprietary branding.
+
+Write completely original, significantly more comprehensive descriptions and itineraries.
+
+**IMPORTANT PRICING RULE:**
+
+The reference website belongs to another operator. Its prices are reference data, not automatically approved prices for My Ujjain Darshan.
+
+Store imported prices as `referencePrice`, not as finalized company prices.
+
+Create separate fields for `publishedPrice`, `pricingStatus`, `priceBasis`, `lastVerifiedAt`, and `sourceUrl`.
+
+Until My Ujjain Darshan confirms its own rates, publicly show "Request Price" or "Get Custom Quote" rather than presenting a competitor's rates as the company's own prices.
+
+Do not scrape or access restricted website sections or bypass any access controls.
+
+If source data is missing or cannot be verified, document the gap instead of making up information.
+
+---
+
+# 5. COMPLETE PACKAGE INVENTORY
+
+The reference website currently lists the following 12 services. All must be represented in My Ujjain Darshan's catalog.
+
+| No. | Package / Service | Reference Advertised Price |
+|---|---|---|
+| 1 | Airport Pickup & Drop | ₹1,800 |
+| 2 | Ujjain Darshan | ₹2,000 |
+| 3 | Omkareshwar | ₹3,200 |
+| 4 | Maheshwar | ₹4,000 |
+| 5 | Mandu | ₹4,000 |
+| 6 | Dewas Darshan | ₹2,000 |
+| 7 | Bhopal | ₹4,100 |
+| 8 | Sanchi | ₹5,000 |
+| 9 | Pachmarhi | ₹10,500 |
+| 10 | Amarkantak | ₹11,500 |
+| 11 | Omkareshwar + Maheshwar + Mamleshwar + Shani Temple | ₹5,000 |
+| 12 | Indore Airport → Ujjain → Ujjain Darshan → Indore Airport | ₹4,100 |
+
+These rates were retrieved from the reference website and are **not independently confirmed as current My Ujjain Darshan selling prices**.
+
+Store them correctly as reference rates in the content management system.
+
+Every package should receive a beautifully designed, standalone, SEO-friendly detail page with original copy and a deep, helpful travel guide.
+
+Do not merely display 12 simple cards.
+
+In addition, propose clearly differentiated Ujjain-first experiences as separate draft packages where useful, including:
+
+- Mahakaleshwar Spiritual Journey
+- Ujjain One-Day Sacred Circuit
+- Ujjain Heritage & Temple Experience
+- Ujjain and Omkareshwar Jyotirlinga Journey
+- Ujjain Family Pilgrimage Experience
+- Ujjain Senior-Citizen-Friendly Darshan
+- Personalized Multi-Day Spiritual Journey
+
+These additional experiences must be labeled as proposed products or custom itineraries until approved. Never invent prices, guaranteed access, inclusions, availability, or temple privileges.
+
+---
+
+# 6. DESIGN VISION AND CREATIVE DIRECTION
+
+## The Overall Feeling
+
+Imagine a combination of:
+
+- An award-winning luxury hospitality website.
+- An immersive destination storytelling experience.
+- A premium Indian heritage brand.
+- A beautifully curated travel magazine.
+- A contemporary, exceptionally well-built digital product.
+
+The website must feel culturally rooted but visually modern.
+
+It should be premium without being ostentatious.
+
+Spiritual without looking outdated.
+
+Animated without being distracting.
+
+Detailed without being confusing.
+
+Commercial without feeling aggressively sales-driven.
+
+Every section should have a purpose.
+
+Every image should elevate the experience.
+
+Every animation should contribute meaningfully to the storytelling or user experience.
+
+## Design Principles
+
+Follow these principles throughout:
+
+**01 — Editorial Sophistication**
+
+Use beautiful typography, generous whitespace, deliberate composition, sophisticated photography, and highly polished layouts.
+
+**02 — Visual Storytelling**
+
+Communicate the emotional significance of the journeys through photography, narrative, subtle motion, and content hierarchy.
+
+**03 — Thoughtful Minimalism**
+
+Avoid clutter. Avoid repeated card grids. Avoid unnecessarily complex graphic elements.
+
+**04 — Outstanding Usability**
+
+Visitors should effortlessly explore destinations, understand package offerings, compare their options, and contact the company.
+
+**05 — Motion With Meaning**
+
+Movement should make the interface feel alive while remaining smooth, controlled, and accessible.
+
+**06 — Trust Through Transparency**
+
+Clearly communicate the nature of each package, how bookings work, what is included, and what requires confirmation.
+
+**07 — Mobile Excellence**
+
+The mobile version is a first-class experience, not a compressed desktop page.
+
+---
+
+# 7. TYPOGRAPHY SYSTEM
+
+Typography is one of the most important elements of this project.
+
+Select a world-class font pairing that creates a sophisticated spiritual-travel identity.
+
+Use:
+
+- An elegant editorial serif font for major storytelling headlines.
+- A highly readable contemporary sans-serif for navigation, descriptions, and interface text.
+- A beautiful Devanagari typeface where Hindi is used.
+
+Possible directions:
+
+- Cormorant Garamond or an equally sophisticated serif.
+- Manrope, DM Sans, or a similar modern interface font.
+- Noto Serif Devanagari or another high-quality Devanagari font.
+
+Do not use these suggestions mechanically. Evaluate font combinations visually.
+
+Create a complete type scale for:
+
+- Hero headlines
+- Section headings
+- Editorial introductions
+- Package titles
+- Body paragraphs
+- Captions
+- Labels
+- Buttons
+- Prices
+- FAQ headings
+- Destination names
+- Hindi devotional phrases
+
+Ensure proper kerning, line height, contrast, alignment, and responsive typography.
+
+Headlines should feel designed, not merely typed.
+
+---
+
+# 8. HOMEPAGE — COMPLETE IMMERSIVE EXPERIENCE
+
+The homepage is the website's most important brand experience.
+
+It should be comprehensive, engaging, and designed to turn visitor interest into high-quality travel enquiries.
+
+## SECTION 1 — CINEMATIC HERO
+
+Design a spectacular full-screen, immersive hero.
+
+The central visual should feature Ujjain's spiritual atmosphere.
+
+Potential imagery:
+
+- Mahakaleshwar Temple
+- Mahakal Lok
+- Ram Ghat at sunrise or sunset
+- Shipra River
+- Beautiful temple architecture
+- Devotional rituals and cultural landscapes
+
+Use authentic, properly licensed media.
+
+If a high-quality authentic video is available, a muted, elegantly edited cinematic background is preferred.
+
+If not, use outstanding still photography enhanced with tasteful motion and parallax.
+
+Never use unrelated or fabricated temple imagery.
+
+Suggested headline:
+
+"Experience the Sacred Soul of Ujjain."
+
+Supporting copy:
+
+"Thoughtfully curated spiritual journeys through ancient temples, timeless traditions, and the sacred heritage of Mahakal's city."
+
+CTAs:
+
+**Explore Sacred Journeys**
+
+**Plan Your Darshan**
+
+Create an elegant scroll indicator.
+
+Use carefully staged text reveals and smooth transitions.
+
+Ensure the hero looks extraordinary on desktop and mobile.
+
+For mobile, use a properly optimized portrait image or video treatment.
+
+## SECTION 2 — INTRODUCTION TO MY UJJAIN DARSHAN
+
+Create an editorial introduction establishing the brand philosophy.
+
+Example heading:
+
+"Not Just a Destination. A Journey of Devotion."
+
+Explain the meaning behind the brand:
+
+- Thoughtfully designed spiritual travel experiences.
+- Discovering Ujjain beyond a standard sightseeing checklist.
+- Exploring history, mythology, architecture, rituals, and local culture.
+- Personalized, comfortable journeys.
+- Helping families, individuals, and pilgrims plan meaningful visits.
+
+Use a large atmospheric image with beautiful typography and balanced whitespace.
+
+Do not claim unverified years of experience, passenger counts, or accolades.
+
+## SECTION 3 — FEATURED UJJAIN DARSHAN EXPERIENCE
+
+This is the centerpiece of the homepage.
+
+Use a sophisticated, magazine-style feature rather than a generic card.
+
+Include:
+
+- Large premium destination photography.
+- Meaningful editorial narrative.
+- Major temples and sacred sites.
+- Typical journey duration.
+- Suggested itinerary preview.
+- Key experience highlights.
+- Who the experience suits.
+- Customization possibilities.
+- Clear inclusions and exclusions.
+- Price enquiry CTA.
+
+Potential highlights:
+
+Mahakaleshwar Temple, Mahakal Lok, Harsiddhi Temple, Kal Bhairav Temple, Ram Ghat, Mangalnath Temple, Sandipani Ashram, Chintaman Ganesh Temple, and other suitable sites.
+
+Make the featured package feel like the brand's signature journey.
+
+## SECTION 4 — EXPLORE ALL JOURNEYS
+
+Create a beautifully designed package discovery interface.
+
+Include tabs or filters for:
+
+- Ujjain Experiences
+- Jyotirlinga Journeys
+- Spiritual Circuits
+- Heritage Escapes
+- Family Journeys
+- Airport & Transport
+- All Packages
+
+Package cards should show:
+
+- Beautiful authentic photograph.
+- Destination or journey title.
+- Duration.
+- Major destinations.
+- A short original description.
+- Starting point where applicable.
+- Indicative price only when approved.
+- View Journey CTA.
+- WhatsApp enquiry CTA.
+
+Cards must have polished hover interactions, responsive image treatments, and excellent typography.
+
+Every package card must open a real detail page.
+
+## SECTION 5 — THE SACRED LANDMARKS OF UJJAIN
+
+Create an immersive exploration of major spiritual landmarks.
+
+Include detailed editorial previews of:
+
+1. Shri Mahakaleshwar Jyotirlinga
+2. Shri Mahakal Lok
+3. Harsiddhi Mata Temple
+4. Kal Bhairav Temple
+5. Ram Ghat
+6. Mangalnath Temple
+7. Sandipani Ashram
+8. Chintaman Ganesh Temple
+9. Gopal Mandir
+10. Gadkalika Temple
+
+Each destination should have its own meaningful content page or a well-developed section within a dedicated Ujjain destination guide.
+
+Use an elegant image-based browsing experience with immersive visual transitions.
+
+Do not fabricate temple timings, access privileges, or ritual availability.
+
+## SECTION 6 — INTERACTIVE SPIRITUAL CIRCUIT
+
+Build an interactive map or visual exploration of the Ujjain spiritual circuit.
+
+Visitors should understand how different major sites relate geographically.
+
+Possible features:
+
+- Selectable destination markers.
+- Preview images and descriptions.
+- Route information where supported by a real map provider.
+- Suggested day-wise sightseeing progression.
+- Navigation to the relevant destination guide.
+- CTA to plan a personalized route.
+
+Use real geographic data.
+
+Do not invent road distances or travel times.
+
+If a map service requires an API key, implement a secure configurable integration and provide a functional fallback.
+
+## SECTION 7 — THE EXPERIENCE, NOT JUST THE ITINERARY
+
+Build an immersive storytelling section.
+
+Possible chapters:
+
+"Before the City Awakens"
+
+"The Sacred Presence of Mahakal"
+
+"Walking Through Centuries of Devotion"
+
+"Along the Timeless Shipra"
+
+"Beyond Ujjain"
+
+Use premium photography, striking headlines, subtle scroll-driven transitions, and insightful original storytelling.
+
+This section should distinguish My Ujjain Darshan from ordinary travel businesses.
+
+## SECTION 8 — WHY TRAVEL WITH US
+
+Explain the genuine value proposition.
+
+Potential themes:
+
+- Thoughtfully planned itineraries.
+- Personalized travel assistance.
+- Flexible journey planning.
+- Comfortable transportation options.
+- Local destination knowledge.
+- Easy WhatsApp communication.
+- Transparent enquiry process.
+- Family-conscious travel planning.
+
+Do not promise services unless supported operationally.
+
+Do not invent testimonials, reviews, safety certifications, partnerships, or performance statistics.
+
+## SECTION 9 — CURATED VEHICLE EXPERIENCE
+
+Show the transportation options in a sophisticated section.
+
+Reference vehicle types include:
+
+- Swift Dzire or equivalent sedan.
+- Maruti Ertiga or equivalent MPV.
+- Innova or Innova Crysta.
+- Tempo Traveller.
+- Suitable group travel vehicles.
+
+The reference website also lists Tavera, Toofan, and buses. Preserve these as reference inventory, but only show them as available from My Ujjain Darshan once confirmed.
+
+Create attractive vehicle cards with:
+
+- Vehicle category.
+- Passenger capacity, where confirmed.
+- Recommended use.
+- Typical luggage suitability.
+- Air-conditioning availability, where confirmed.
+- Vehicle photo.
+- Request Quote CTA.
+
+Do not assume vehicle availability.
+
+## SECTION 10 — HOW YOUR JOURNEY BEGINS
+
+Build an elegant, animated three- or four-step booking journey:
+
+1. Explore a destination or package.
+2. Share your dates and travel preferences.
+3. Receive a personalized quotation and itinerary.
+4. Confirm your journey with the team.
+
+The process must reflect the actual lead-based booking model.
+
+Do not imply instant confirmed bookings unless an operational booking backend exists.
+
+## SECTION 11 — TRAVEL JOURNAL
+
+Create a beautifully designed editorial blog section.
+
+Initial article topics might include:
+
+- A Complete Guide to Ujjain Darshan
+- Important Temples to Visit in Ujjain
+- Planning a Visit to Mahakaleshwar
+- Ujjain and Omkareshwar: Planning a Jyotirlinga Journey
+- Exploring Mahakal Lok
+- What to Know Before Visiting Ujjain
+- Ujjain for First-Time Visitors
+- How to Plan a Family Pilgrimage
+- Ram Ghat and the Spiritual Heritage of the Shipra
+- Spiritual Destinations Beyond Ujjain
+
+These should be genuine, informative articles, not keyword-stuffed filler.
+
+## SECTION 12 — REVIEWS AND SOCIAL PROOF
+
+Create a premium testimonials module and support an actual verified reviews integration when available.
+
+Until real reviews are supplied, show an appropriate empty state or omit the section.
+
+Never invent customer names, star ratings, review counts, quotes, or Google reviews.
+
+## SECTION 13 — FREQUENTLY ASKED QUESTIONS
+
+Include genuinely helpful questions such as:
+
+- How much time is generally needed for Ujjain sightseeing?
+- Can I customize my Ujjain Darshan package?
+- Can I book a private vehicle?
+- Can I include Omkareshwar in my journey?
+- Is pickup from Indore Airport possible?
+- Can I travel with elderly family members?
+- Are hotel bookings included?
+- How do I receive a quotation?
+- Are temple entries included?
+- Is Mahakaleshwar Bhasma Aarti included?
+- How far in advance should I enquire?
+
+All answers must distinguish normal sightseeing services from temple-administered bookings.
+
+## SECTION 14 — FINAL CONVERSION EXPERIENCE
+
+End with a memorable, full-width storytelling CTA.
+
+Suggested headline:
+
+"Your Journey to the Sacred Begins Here."
+
+Supporting text:
+
+"Tell us the journey you envision. We'll help you plan an experience that feels meaningful, comfortable, and truly yours."
+
+Buttons:
+
+**Plan My Journey**
+
+**Talk to Our Team**
+
+Use an attractive but restrained full-bleed image and cinematic transition.
+
+## SECTION 15 — LUXURY-QUALITY FOOTER
+
+Include:
+
+- Official logo.
+- Brand introduction.
+- Destination links.
+- Package links.
+- Travel journal links.
+- About page.
+- Contact page.
+- WhatsApp.
+- Phone.
+- Location: Ujjain, Madhya Pradesh, India.
+- Privacy Policy.
+- Terms and Conditions.
+- Cancellation Policy.
+- Sitemap.
+
+Social icons should appear only when actual account URLs are configured.
+
+Use refined typography and clean spacing.
+
+---
+
+# 9. PREMIUM PACKAGE DETAIL PAGES
+
+Every package must have a dedicated detail page.
+
+This is one of the highest-priority requirements.
+
+Do not create thin, generic pages.
+
+Each package page must be genuinely valuable to travelers planning that journey.
+
+## Package Page Structure
+
+### A. Immersive Package Hero
+
+Include:
+
+- Beautiful destination photography.
+- Package title.
+- A memorable, original one-line introduction.
+- Key destinations.
+- Trip duration.
+- Starting location.
+- Package category.
+- Price status.
+- Primary CTA.
+- Secondary WhatsApp CTA.
+
+### B. Journey Overview
+
+Write a thoughtful editorial introduction of approximately 200–350 words where sufficient verified information exists.
+
+Explain what makes the journey distinctive and whom it suits.
+
+### C. Complete Detailed Itinerary
+
+Write detailed itineraries based on realistic travel pacing.
+
+For each day or segment, include:
+
+- Suggested sequence of locations.
+- What guests will see.
+- Historical or spiritual context.
+- Approximate time allocation, when defensible.
+- Travel logistics.
+- Optional stops.
+- Rest and meal opportunities.
+- Accessibility or walking considerations.
+- Important visitor advice.
+
+Use interactive expandable timeline sections where appropriate.
+
+Do not invent specific ritual times, reservation guarantees, or temple entry privileges.
+
+### D. Places Covered
+
+Build a detailed visual destination list.
+
+Each place should provide:
+
+- Correct name.
+- Relevant photo.
+- Historical or spiritual significance.
+- Main visitor highlights.
+- Practical visit considerations.
+- Recommended time allocation where reasonable.
+- Link to a full destination guide.
+
+### E. Journey Highlights
+
+Explain the best experiences and meaningful moments in the trip.
+
+Avoid vague statements such as "wonderful sightseeing" or "amazing journey."
+
+### F. Inclusions and Exclusions
+
+Create clearly separated lists.
+
+Because the service inclusions are not yet confirmed, keep actual inclusion data manageable from the admin system and mark unknown details for operator approval.
+
+Never imply that hotels, meals, guides, puja charges, VIP darshan, or temple tickets are included without confirmation.
+
+### G. Travel Information
+
+Provide:
+
+- Typical journey duration.
+- Starting and ending points.
+- Suitable transport categories.
+- Approximate geographical coverage, if verified.
+- Seasonal considerations.
+- Suggested departure planning.
+- General travel preparation advice.
+- Appropriate family or senior-traveler considerations.
+
+### H. Pricing and Enquiry
+
+Support configurable prices.
+
+Show pricing transparently where officially approved.
+
+For unapproved prices use:
+
+"Pricing available on request."
+
+Include a prominent CTA to receive an accurate quotation.
+
+### I. Photo Gallery
+
+Use authentic destination photographs.
+
+Implement a sophisticated lightbox with keyboard navigation, captions, and swipe support.
+
+### J. FAQs
+
+Generate package-specific FAQs, not simply the same generic questions repeated on every page.
+
+### K. Related Journeys
+
+Recommend genuinely related itineraries.
+
+### L. Sticky Booking Panel
+
+On desktop, display a well-designed sticky enquiry panel.
+
+On mobile, provide a compact sticky bottom enquiry CTA that respects the WhatsApp and call controls.
+
+---
+
+# 10. SIGNATURE UJJAIN DARSHAN PAGE
+
+The Ujjain Darshan page deserves exceptional attention.
+
+Treat it as the flagship product page of the entire company.
+
+Create a rich, immersive editorial journey through the city.
+
+Potential sections:
+
+- Why Ujjain is one of India's most sacred cities.
+- The spiritual and historical importance of Mahakaleshwar.
+- Understanding Ujjain's sacred geography.
+- Suggested routes for one-day sightseeing.
+- Optional extended spiritual experiences.
+- Major temples and landmarks.
+- Ram Ghat and the Shipra.
+- The significance of Mahakal Lok.
+- Historical narratives and cultural context.
+- Understanding darshan planning.
+- Tips for families and elderly travelers.
+- Important local travel considerations.
+- Frequently asked questions.
+- Customizing a personal spiritual journey.
+
+Build a premium, interactive itinerary timeline.
+
+Use detailed photography and thoughtful storytelling.
+
+Explain that temple administration controls official bookings, ritual access, schedules, and entry conditions.
+
+**Do not offer or guarantee Bhasma Aarti bookings, special darshan access, expedited entries, or temple-issued permissions unless independently authorized and integrated with a legitimate booking process.**
+
+Where appropriate, direct visitors toward official temple resources.
+
+---
+
+# 11. SITE ARCHITECTURE
+
+Implement a complete, logical, scalable website structure.
+
+Recommended pages:
+
+### Core Pages
+
+- `/`
+- `/about`
+- `/packages`
+- `/destinations`
+- `/ujjain-darshan`
+- `/our-fleet`
+- `/plan-your-journey`
+- `/contact`
+- `/travel-journal`
+- `/faq`
+
+### Package Detail Pages
+
+- `/packages/airport-pickup-drop`
+- `/packages/ujjain-darshan`
+- `/packages/omkareshwar`
+- `/packages/maheshwar`
+- `/packages/mandu`
+- `/packages/dewas-darshan`
+- `/packages/bhopal`
+- `/packages/sanchi`
+- `/packages/pachmarhi`
+- `/packages/amarkantak`
+- `/packages/omkareshwar-maheshwar-mamleshwar-shani-temple`
+- `/packages/indore-airport-ujjain-darshan-transfer`
+
+### Destination Pages
+
+- `/destinations/ujjain`
+- `/destinations/omkareshwar`
+- `/destinations/maheshwar`
+- `/destinations/mandu`
+- `/destinations/dewas`
+- `/destinations/bhopal`
+- `/destinations/sanchi`
+- `/destinations/pachmarhi`
+- `/destinations/amarkantak`
+
+### Important Legal Pages
+
+- `/privacy-policy`
+- `/terms-and-conditions`
+- `/cancellation-policy`
+
+Create appropriate redirects or canonical handling for the flagship Ujjain Darshan page so multiple URLs do not create SEO duplication.
+
+The site architecture should make it easy to add packages and destinations in the future.
+
+---
+
+# 12. GLOBAL HEADER AND NAVIGATION
+
+Build a beautifully polished responsive header.
+
+Desktop navigation:
+
+**Home | Explore Ujjain | Our Journeys | Destinations | About Us | Travel Journal | Contact**
+
+Add a refined CTA:
+
+**Plan Your Journey**
+
+Use a sophisticated mega menu for journeys or destinations where appropriate.
+
+Header behavior:
+
+- Transparent or visually integrated over the hero.
+- Transition to an elegant, readable background during scrolling.
+- Sticky positioning.
+- Smooth transitions.
+- Clearly visible active navigation state.
+- Excellent keyboard accessibility.
+- No layout shifts.
+
+Mobile:
+
+- Clean, premium navigation.
+- Large enough tap targets.
+- Animated menu opening.
+- Collapsible package categories.
+- Easy access to phone and WhatsApp.
+- Proper scroll locking and focus management.
+
+---
+
+# 13. FLOATING WHATSAPP AND CALL BUTTONS
+
+This is an absolute requirement.
+
+Implement both floating communication controls on **every page of the website**.
+
+## Floating WhatsApp Button
+
+Phone number:
+
+**+919522233375**
+
+URL:
+
+`https://wa.me/919522233375`
+
+Design:
+
+- Recognizable WhatsApp icon.
+- Elegant floating circular button.
+- Appropriate visual distinction from the main brand palette.
+- Subtle shadow.
+- Refined hover animation.
+- Accessible label.
+- Mobile-friendly placement.
+
+Optional expandable label:
+
+"Plan Your Journey on WhatsApp"
+
+Pre-filled WhatsApp message for general enquiries:
+
+"Namaste! I would like to know more about My Ujjain Darshan travel packages. Please help me plan my journey."
+
+For package-specific enquiries, dynamically include:
+
+- Package name.
+- Selected dates.
+- Number of travelers.
+- Pickup location.
+- Vehicle preference.
+- Any entered requirements.
+
+Properly URL-encode the message.
+
+## Floating Call Button
+
+Phone number:
+
+**+919522233375**
+
+URL:
+
+`tel:+919522233375`
+
+Design:
+
+- Recognizable telephone icon.
+- Coordinated floating design.
+- Clear tap and hover states.
+- Accessible label.
+- Appropriate spacing from WhatsApp.
+
+**Important:** On mobile, avoid overlap with sticky package CTAs, cookie notices, and the browser's safe areas.
+
+Never allow floating buttons to obscure important website content.
+
+These buttons must work on all routes and page states.
+
+---
+
+# 14. SMART LEAD GENERATION AND ENQUIRY SYSTEM
+
+The website must be optimized for generating genuine tour package enquiries.
+
+Create a sophisticated multi-step trip planner.
+
+## Step 1 — Choose Your Journey
+
+Fields:
+
+- Preferred destination or package.
+- Travel type.
+- Approximate number of days.
+- Custom journey option.
+
+## Step 2 — Travel Details
+
+Fields:
+
+- Arrival date.
+- Return date, if applicable.
+- Number of adults.
+- Number of children.
+- Pickup location.
+- Drop location.
+- Preferred vehicle category.
+
+## Step 3 — Preferences
+
+Fields:
+
+- Main travel interests.
+- Temples and experiences of interest.
+- Senior travelers.
+- Accessibility or mobility requirements, when voluntarily disclosed.
+- Optional hotel assistance.
+- Optional travel guide requirement.
+- Additional requests.
+
+Do not require visitors to disclose health conditions or other unnecessary sensitive personal information.
+
+## Step 4 — Contact Details
+
+Fields:
+
+- Full name.
+- Mobile number.
+- Optional email.
+- Preferred contact method.
+- Required privacy consent.
+
+Implement:
+
+- Indian phone number validation.
+- Client-side and server-side validation.
+- Clear error handling.
+- Spam protection.
+- Accessible progress indicators.
+- Proper confirmation screens.
+- Consent-aware analytics.
+- No loss of entered details between steps.
+- Graceful recovery from network failures.
+
+## Lead Submission
+
+Implement a real backend.
+
+Enquiries must be saved securely to a database.
+
+Support optional email notifications to the operator once a destination email is configured.
+
+Support WhatsApp handoff with a professionally formatted message.
+
+Do not claim the lead was submitted unless the server confirms success.
+
+If backend configuration is not available in the environment, implement the feature and clearly mark the required environment variables and deployment setup.
+
+Do not silently simulate successful form submission.
+
+---
+
+# 15. ADMIN DASHBOARD / CONTENT MANAGEMENT
+
+Create a secure, protected administrative area.
+
+Suggested route:
+
+`/admin`
+
+Implement authentication and authorization.
+
+The admin should be able to:
+
+### Manage Tour Packages
+
+- Create packages.
+- Edit package titles and descriptions.
+- Set durations.
+- Add destinations.
+- Manage itineraries.
+- Upload and organize photos.
+- Set inclusions and exclusions.
+- Change prices.
+- Set pricing status.
+- Feature packages on the homepage.
+- Hide or archive packages.
+- Configure SEO information.
+
+### Manage Destinations
+
+- Edit destination guides.
+- Add and remove attractions.
+- Manage galleries.
+- Update travel information.
+
+### Manage Enquiries
+
+- View submitted leads.
+- Filter by package.
+- Filter by enquiry date.
+- Update lead status.
+- Add internal notes.
+- Track follow-ups.
+- Export leads as CSV.
+- Mark leads as contacted, quoted, confirmed, or closed.
+
+### Manage Content
+
+- Create blog articles.
+- Update homepage sections.
+- Edit FAQ answers.
+- Manage verified testimonials.
+- Update contact information.
+- Manage site-wide settings.
+
+### Manage Pricing
+
+Store reference prices separately from approved selling prices.
+
+Prevent competitor reference prices from being accidentally published.
+
+The admin must be secure, responsive, and easy for a nontechnical business owner to use.
+
+---
+
+# 16. ANIMATION AND INTERACTION DESIGN
+
+Motion design is a defining part of this website.
+
+However, do not create excessive animation that makes the interface slow or difficult to use.
+
+Use modern, well-supported tools such as:
+
+- GSAP with ScrollTrigger for sophisticated timelines where appropriate.
+- Motion for React for component interactions.
+- CSS transitions for simple hover states.
+- Intersection Observer for lightweight reveal effects.
+
+Use only the libraries genuinely required.
+
+## Hero Animation
+
+- Beautiful entrance sequence.
+- Cinematic image or video movement.
+- Elegant text reveal.
+- Controlled CTA entrance.
+- Subtle scroll indicator.
+
+## Scroll-Based Storytelling
+
+- Smooth editorial reveals.
+- Section transitions.
+- Atmospheric image movement.
+- Layered parallax, used sparingly.
+- Timeline progression.
+- Image masking or clipping transitions where meaningful.
+
+## Package Card Interactions
+
+- Refined hover elevation.
+- Gentle image scale.
+- Soft transitions.
+- Smooth arrow or CTA movement.
+- Elegant focus styling.
+
+## Destination Galleries
+
+- Smooth gallery navigation.
+- Sophisticated modal transitions.
+- Keyboard control.
+- Mobile swipe support.
+
+## Navigation
+
+- Fluid menu transitions.
+- Smooth submenu reveals.
+- No flicker or layout shift.
+
+## Microinteractions
+
+- Thoughtful button feedback.
+- Input focus transitions.
+- Form step transitions.
+- Loading states.
+- Success confirmation.
+- Accordion animations.
+- Refined hover states.
+
+## Motion Performance Rules
+
+- Respect `prefers-reduced-motion`.
+- Never sacrifice readability for animation.
+- Avoid continuous expensive animation.
+- Avoid excessive scroll hijacking.
+- Avoid heavy WebGL unless it demonstrably improves the experience.
+- Keep mobile interactions smooth.
+- Avoid animation causing layout shifts.
+- Implement cleanup for event listeners and animation instances.
+- Lazy-load noncritical animation dependencies where appropriate.
+
+The goal is not maximum animation quantity.
+
+The goal is maximum perceived craftsmanship.
+
+---
+
+# 17. PHOTOGRAPHY AND ART DIRECTION
+
+Photography must be exceptional.
+
+Use visually authentic, high-resolution images of:
+
+- Mahakaleshwar Temple.
+- Mahakal Lok.
+- Ujjain city and historic architecture.
+- Shipra River and Ram Ghat.
+- Omkareshwar.
+- Maheshwar and its ghats.
+- Mandu's architecture.
+- Sanchi Stupa.
+- Pachmarhi landscapes.
+- Amarkantak.
+- Other featured destinations.
+
+Prefer genuine destination photography from properly licensed or legally reusable sources.
+
+Retain photographer attribution and licensing information where required.
+
+Do not use stock imagery unrelated to the actual destination.
+
+Do not generate fake photography portraying nonexistent architecture or inaccurate religious sites.
+
+If suitable licensed media is unavailable, use a clearly marked placeholder in development and track the required asset.
+
+Image implementation:
+
+- Responsive `srcset`.
+- Proper sizes.
+- Modern image formats.
+- Optimized image loading.
+- Focal point control.
+- Lazy loading where appropriate.
+- Descriptive alt text.
+- No stretched or pixelated photos.
+
+Create a cohesive photographic mood using natural color grading and consistent presentation.
+
+---
+
+# 18. TECHNOLOGY STACK
+
+Use a contemporary, maintainable, production-ready stack.
+
+Preferred architecture:
+
+**Framework:** Next.js with App Router
+
+**Language:** TypeScript
+
+**Styling:** Tailwind CSS
+
+**Components:** Accessible custom components, using proven primitives where useful
+
+**Animation:** GSAP and/or Motion, selected intelligently
+
+**Database:** PostgreSQL
+
+**ORM:** Prisma or an equivalent well-maintained solution
+
+**Authentication:** Secure, production-appropriate authentication for admin access
+
+**Validation:** Zod or equivalent
+
+**Forms:** React Hook Form or an equivalent accessible form solution
+
+**Media:** Next.js Image and a configurable media storage solution
+
+**Maps:** A properly licensed and configured map provider when API credentials are supplied
+
+**Deployment:** Vercel or another compatible production host
+
+You may choose alternative tools if they meaningfully improve reliability, performance, developer experience, or maintainability.
+
+Prefer a stable, coherent architecture over a complicated technology stack.
+
+Use current stable dependency versions compatible with each other.
+
+Do not blindly install unnecessary packages.
+
+---
+
+# 19. CONTENT DATA MODEL
+
+Use structured data models.
+
+At minimum implement:
+
+### Package
+
+- ID
+- Slug
+- Name
+- Subtitle
+- Summary
+- Full description
+- Category
+- Destinations
+- Duration
+- Starting location
+- Ending location
+- Reference price
+- Published price
+- Price basis
+- Pricing status
+- Pricing currency
+- Source URL
+- Last verified timestamp
+- Featured image
+- Gallery
+- Highlights
+- Detailed itinerary
+- Inclusions
+- Exclusions
+- Travel tips
+- FAQ references
+- SEO metadata
+- Publishing status
+
+### Destination
+
+- ID
+- Slug
+- Name
+- Region
+- Description
+- Cultural significance
+- Historical context
+- Attractions
+- Images
+- Transport information
+- Travel tips
+- Related packages
+- SEO metadata
+
+### Enquiry
+
+- ID
+- Customer name
+- Contact phone
+- Optional email
+- Interested package
+- Arrival date
+- Return date
+- Traveler count
+- Pickup location
+- Drop location
+- Vehicle preference
+- Special requirements
+- Consent record
+- Source page
+- Lead status
+- Created timestamp
+- Follow-up notes
+
+### Vehicle
+
+- ID
+- Vehicle category
+- Model
+- Capacity
+- Luggage information
+- Availability status
+- Rate configuration
+- Image
+- Description
+
+### Article
+
+- ID
+- Slug
+- Title
+- Excerpt
+- Content
+- Author attribution
+- Cover image
+- Tags
+- SEO metadata
+- Publishing date
+- Updated date
+- Publishing status
+
+Create the database schema, migrations, seed data, and typed server-side queries.
+
+---
+
+# 20. SEARCH ENGINE OPTIMIZATION
+
+SEO must be part of the architecture, not an afterthought.
+
+Implement:
+
+- Server-rendered indexable content.
+- Unique page titles.
+- High-quality meta descriptions.
+- Appropriate canonical URLs.
+- Open Graph metadata.
+- Social sharing images.
+- XML sitemap.
+- Robots.txt.
+- Breadcrumb navigation.
+- Descriptive, clean URLs.
+- Proper heading hierarchy.
+- Image alt text.
+- Internal linking.
+- Structured data where appropriate.
+- Accurate local business information.
+- Content freshness fields.
+- Logical content hierarchy.
+
+Target relevant search intent such as:
+
+- Ujjain Darshan package
+- Ujjain tour packages
+- Mahakaleshwar temple tour
+- Ujjain sightseeing
+- Ujjain Omkareshwar tour
+- Omkareshwar tour from Ujjain
+- Ujjain local sightseeing taxi
+- Indore Airport to Ujjain cab
+- Ujjain spiritual tour
+- Mahakal Darshan travel planning
+- Maheshwar tour from Ujjain
+
+Do not keyword-stuff.
+
+Create genuinely useful destination content that deserves to rank.
+
+Use accurate Schema.org types such as Organization, TravelAgency, BreadcrumbList, FAQPage where eligible, and relevant trip or service schema where properly supported.
+
+Do not add fabricated review ratings or unsupported structured-data claims.
+
+---
+
+# 21. PERFORMANCE AND TECHNICAL QUALITY
+
+Aim for outstanding measured performance, not merely visual polish.
+
+Targets under representative production conditions:
+
+- Lighthouse Performance: 90+ where feasible.
+- Accessibility: 95+.
+- Best Practices: 95+.
+- SEO: 95+.
+- LCP: 2.5 seconds or better at the 75th percentile.
+- CLS: 0.1 or less.
+- INP: 200ms or better.
+
+Use:
+
+- Optimized media.
+- Correct caching strategies.
+- Code splitting.
+- Lazy loading.
+- Minimal unnecessary client-side JavaScript.
+- Font optimization.
+- Efficient rendering.
+- Sensible animation scheduling.
+- No unnecessary re-renders.
+- Semantic HTML.
+- Responsive image delivery.
+
+Prioritize real-world mobile performance on mid-range Android devices and typical Indian mobile data networks.
+
+Do not sacrifice accessibility or performance solely to achieve dramatic visual effects.
+
+---
+
+# 22. RESPONSIVE DESIGN
+
+Test and carefully optimize for:
+
+- 320px mobile.
+- 375px mobile.
+- 390px mobile.
+- 430px mobile.
+- 768px tablet.
+- 1024px small laptop.
+- 1280px desktop.
+- 1440px desktop.
+- 1920px large desktop.
+
+Ensure:
+
+- No horizontal overflow.
+- No overlapping text.
+- No cut-off headings.
+- No distorted imagery.
+- No cramped mobile layouts.
+- No broken menus.
+- No inaccessible booking actions.
+- Correct sticky element behavior.
+- Safe-area support.
+- Proper tap targets.
+- Readable font sizes.
+- Usable forms and filters.
+
+Mobile should feel individually art-directed.
+
+---
+
+# 23. ACCESSIBILITY
+
+Meet WCAG 2.2 AA to the greatest extent feasible.
+
+Implement:
+
+- Semantic elements.
+- Accessible headings.
+- Proper labels.
+- Keyboard navigation.
+- Visible focus indicators.
+- Alt text.
+- Sufficient color contrast.
+- Reduced-motion support.
+- Accessible dialogs.
+- Proper focus management.
+- Form validation messages.
+- Accessible navigation menus.
+- Logical tab order.
+
+No information should be accessible only through hover effects.
+
+---
+
+# 24. LANGUAGE AND LOCALIZATION
+
+Primary language: English.
+
+Structure the website so Hindi can be added properly later.
+
+Support Unicode and Devanagari typography.
+
+Avoid machine-like mixed-language copy.
+
+Selectively integrate tasteful Hindi phrases where they genuinely improve the cultural character.
+
+Example:
+
+"महाकाल की नगरी में आपका स्वागत है"
+
+Do not use Hindi script as decoration without meaning.
+
+Make localization extensible, but do not claim full bilingual support until translations and routing have been implemented.
+
+---
+
+# 25. SECURITY AND PRIVACY
+
+This website will collect customer contact details.
+
+Implement:
+
+- Server-side validation.
+- Protection against injection.
+- Secure admin authentication.
+- Proper access authorization.
+- Rate limiting for forms.
+- Spam protection.
+- Input sanitization where appropriate.
+- Secure environment variable handling.
+- Database access restrictions.
+- Secure transport.
+- Reasonable data retention configuration.
+- Privacy disclosures.
+- Safe error messages.
+- No exposed database credentials.
+- No personally identifying information in analytics events.
+
+Create appropriate Privacy Policy, Terms, and Cancellation Policy drafts, but flag them for legal and business review before publication.
+
+Do not invent cancellation refund commitments or payment terms.
+
+---
+
+# 26. ANALYTICS AND CONVERSION TRACKING
+
+Prepare support for analytics and lead attribution.
+
+Track relevant actions, subject to required consent and privacy controls:
+
+- Package page views.
+- Package enquiry clicks.
+- WhatsApp clicks.
+- Phone clicks.
+- Trip planner starts.
+- Trip planner completions.
+- Enquiry submissions.
+- Package filter usage.
+- Blog-to-package transitions.
+
+Support Google Analytics 4 and Google Tag Manager via optional environment configuration.
+
+Do not expose private customer details in tracking payloads.
+
+Create a simple event naming convention and a tracking documentation file.
+
+---
+
+# 27. ADVANCED USER EXPERIENCE FEATURES
+
+Build the following if they can be implemented reliably and without compromising the core website:
+
+### Smart Package Discovery
+
+Visitors can browse by:
+
+- Destination.
+- Journey duration.
+- Spiritual interest.
+- Number of travelers.
+- Package category.
+- Transport requirements.
+
+### Package Comparison
+
+Allow visitors to compare selected packages by:
+
+- Destinations covered.
+- Duration.
+- Type of experience.
+- Starting point.
+- Available inclusions.
+- Pricing status.
+
+### Save a Journey
+
+Allow visitors to save a small shortlist of interesting journeys locally without requiring an account.
+
+### Personalized Travel Enquiry
+
+Let visitors select specific attractions or destinations and submit the resulting preferences for a custom itinerary quotation.
+
+### Beautiful Empty and Error States
+
+Design all empty states, loading states, errors, and success states to match the brand.
+
+Never leave unfinished default framework error screens in production.
+
+---
+
+# 28. CONTENT WRITING STANDARDS
+
+Every line of copy should feel human, thoughtfully written, accurate, and premium.
+
+Avoid repetitive phrases.
+
+Avoid generic statements such as:
+
+- "We provide the best tour package."
+- "Enjoy an unforgettable experience."
+- "Your satisfaction is our priority."
+- "Explore amazing destinations."
+- "Book now for the best price."
+
+Prefer evocative but informative writing.
+
+Example:
+
+Instead of:
+
+"Visit Mahakaleshwar Temple with our tour package."
+
+Write:
+
+"Begin your exploration of Ujjain at the revered Mahakaleshwar Jyotirlinga, where centuries of devotion continue to shape the spiritual rhythm of the city."
+
+Keep historical, religious, and logistical statements accurate.
+
+Clearly distinguish historical evidence, established religious traditions, and devotional beliefs.
+
+**Content depth matters.**
+
+Every major destination page should have substantial original content.
+
+Every package should explain the actual journey, not just repeat generic marketing text.
+
+Do not artificially increase word counts with filler.
+
+---
+
+# 29. IMPLEMENTATION WORKFLOW
+
+Execute the project in carefully planned stages.
+
+## Stage 1 — Research and Inventory
+
+- Inspect the reference website.
+- Record all 12 packages.
+- Analyze vehicle offerings.
+- Identify missing information.
+- Inspect the supplied logo.
+- Establish a verified content inventory.
+
+## Stage 2 — Creative Direction
+
+- Establish brand design tokens.
+- Select typography.
+- Create the color system.
+- Define spacing and layout rules.
+- Plan photography treatment.
+- Define motion principles.
+- Design responsive navigation.
+
+## Stage 3 — Architecture
+
+- Initialize the application.
+- Configure TypeScript and linting.
+- Establish routes.
+- Build a clean component structure.
+- Design database models.
+- Configure server-side validation.
+- Prepare seed data.
+
+## Stage 4 — Component Library
+
+Build reusable components:
+
+- Header
+- Footer
+- Navigation mega menu
+- Buttons
+- Package cards
+- Destination cards
+- Editorial sections
+- Image galleries
+- Itinerary timelines
+- Booking panels
+- WhatsApp and call controls
+- FAQ accordions
+- Forms
+- Breadcrumbs
+- Image lightbox
+- Loading skeletons
+
+## Stage 5 — Full Page Development
+
+Implement all required pages, not just a homepage preview.
+
+## Stage 6 — Content Integration
+
+Populate the 12 reference package records.
+
+Create detailed, original content.
+
+Integrate verified destination information.
+
+Add appropriate imagery.
+
+## Stage 7 — Enquiry Backend
+
+- Database connection.
+- Lead validation.
+- Lead persistence.
+- Operator notification system.
+- WhatsApp handoff.
+- Error handling.
+
+## Stage 8 — Admin Dashboard
+
+Develop protected content and lead management functionality.
+
+## Stage 9 — Animation and Polish
+
+Add motion after the underlying layout and functionality are stable.
+
+## Stage 10 — Testing
+
+Run automated and manual checks.
+
+Fix issues before delivery.
+
+## Stage 11 — Deployment Readiness
+
+Provide all required configuration instructions, environment variable templates, deployment documentation, and production readiness notes.
+
+---
+
+# 30. QA AND ACCEPTANCE CRITERIA
+
+Before declaring the website complete, verify:
+
+### Content
+
+- All 12 source packages exist.
+- Each has a dedicated page.
+- Every page has original content.
+- No copied competitor branding is present.
+- Reference prices are not represented as approved company rates.
+- No fabricated business facts or reviews appear.
+- Destination descriptions are accurate.
+
+### User Experience
+
+- Navigation works.
+- Filters work.
+- Package links work.
+- Galleries work.
+- Responsive menus work.
+- Floating WhatsApp works.
+- Floating call button works.
+- Forms validate correctly.
+- Enquiries persist correctly.
+- Confirmation states are truthful.
+- Mobile CTAs do not overlap.
+
+### Technical
+
+- TypeScript checks pass.
+- Linting passes.
+- Production build succeeds.
+- Database migrations work.
+- Admin access controls work.
+- No broken routes.
+- No missing media without an intentional placeholder.
+- No critical console errors.
+- No hydration issues.
+- No exposed secrets.
+
+### Visual
+
+- Layouts look premium.
+- Typography is polished.
+- Images have correct cropping.
+- Animations feel smooth.
+- Mobile layouts are excellent.
+- Content has clean vertical rhythm.
+- Buttons and cards are consistent.
+- No clipping, overflow, or overlapping components.
+
+### Accessibility
+
+- Keyboard navigation.
+- Focus states.
+- Screen-reader labels.
+- Proper contrast.
+- Reduced-motion behavior.
+- Accessible forms.
+- Accessible modal dialogs.
+
+### SEO
+
+- Unique metadata.
+- Working sitemap.
+- Correct canonical URLs.
+- Search-indexable package pages.
+- Structured data validity.
+- Proper internal links.
+
+Where tooling allows, use browser-based tests and screenshots at multiple viewport sizes to inspect the rendered results.
+
+Do not claim tests passed unless they actually ran.
+
+---
+
+# 31. PROJECT STRUCTURE AND DELIVERABLES
+
+Deliver a complete working codebase.
+
+Include:
+
+- Production-ready application.
+- Reusable design system.
+- Responsive website pages.
+- Package data.
+- Destination data.
+- Functional enquiry system.
+- Admin interface.
+- Database schema and migrations.
+- Seed scripts.
+- Environment configuration template.
+- SEO configuration.
+- Accessibility implementation.
+- Tests.
+- README.
+- Deployment instructions.
+- Content source documentation.
+- List of pending operator approvals.
+- List of required media licenses and attributions.
+
+Include a `CONTENT_VERIFICATION.md` file specifying:
+
+- Imported source information.
+- Unverified content.
+- Confirmed package information.
+- Pricing requiring approval.
+- Unconfirmed vehicle availability.
+- Unconfirmed business service claims.
+- Legal content requiring review.
+
+Include a `DESIGN_SYSTEM.md` file documenting:
+
+- Brand colors.
+- Font choices.
+- Type scale.
+- Spacing system.
+- Components.
+- Animation principles.
+- Responsive breakpoints.
+- Accessibility considerations.
+
+---
+
+# 32. NON-NEGOTIABLE DESIGN QUALITY REQUIREMENTS
+
+Do not create something that looks like a default AI-generated website.
+
+Avoid:
+
+- Generic travel landing page templates.
+- Random decorative gradients.
+- Oversized rounded cards everywhere.
+- Excessive glowing buttons.
+- Repetitive three-column grids.
+- Generic icons used excessively.
+- Placeholder content in finished pages.
+- Random stock photographs.
+- Inconsistent spacing.
+- Huge empty sections without intention.
+- Poor typography.
+- Fake trust signals.
+- Fake testimonials.
+- Fake booking confirmations.
+- Pointless animation.
+- Unnecessary visual clutter.
+
+Every screen should feel intentionally composed.
+
+Use asymmetrical editorial layouts where appropriate.
+
+Maintain a clear underlying grid system.
+
+Use generous whitespace.
+
+Employ sophisticated visual pacing.
+
+Balance immersive photography with calm, readable content.
+
+Treat each page like a professionally art-directed travel publication.
+
+The overall impression should be:
+
+**"This is a premium spiritual travel company that has invested deeply in its brand, service experience, and digital presence."**
+
+---
+
+# 33. OPERATING INSTRUCTIONS FOR CLAUDE CODE / CODEX
+
+You are an implementation agent, not merely an advisor.
+
+Follow these operating principles:
+
+1. Inspect the existing repository and assets before making changes.
+2. If the repository is empty, initialize the project with a clean architecture.
+3. Use the attached logo rather than substituting another asset.
+4. Research the reference website before writing package seed data.
+5. Build reusable and maintainable components.
+6. Use strict TypeScript where appropriate.
+7. Write real working code.
+8. Avoid fake implementations or nonfunctional buttons.
+9. Test functionality as you develop.
+10. Use actual browser screenshots when the environment permits.
+11. Correct visible quality issues.
+12. Run the production build.
+13. Document configuration requirements.
+14. Identify anything that still requires user credentials or operator approval.
+15. Continue implementation until all feasible deliverables are complete.
+
+Do not repeatedly stop to ask about minor design preferences.
+
+Use strong professional judgment.
+
+Only treat missing material business facts, credentials, legal commitments, or essential operational information as requiring approval.
+
+Where actual credentials are unavailable, implement secure integrations using clearly documented environment variables and graceful fallbacks.
+
+Do not claim unconfigured features are functioning in production.
+
+---
+
+# 34. FINAL CREATIVE BENCHMARK
+
+The website should make a visitor feel that they are beginning a meaningful journey before they have even booked.
+
+It should visually communicate the grandeur of Mahakaleshwar, the timeless heritage of Ujjain, the tranquility of the Shipra, and the deeper cultural experience of exploring sacred Madhya Pradesh.
+
+At the same time, it must be exceptionally practical.
+
+A visitor should be able to:
+
+- Understand the brand.
+- Explore Ujjain.
+- Discover every travel package.
+- Read genuinely useful itineraries.
+- Compare options.
+- Understand travel considerations.
+- Request a personalized quotation.
+- Contact the business immediately.
+- Use the website comfortably on a mobile phone.
+
+The website should leave the impression of an extraordinary, thoughtfully crafted travel brand.
+
+**Final Directive:**
+
+Build the complete My Ujjain Darshan platform with obsessive attention to craft, originality, detail, technical quality, usability, and commercial effectiveness.
+
+Make Ujjain Darshan the unmistakable signature experience.
+
+Treat every page, every transition, every content block, every interaction, and every photograph as part of one unified premium brand experience.
+
+The finished product must be beautiful, useful, technically reliable, maintainable, scalable, and ready for real business operations once its deployment credentials and business details are approved.
+
+**Do not simply describe the website. Build it.**

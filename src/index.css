@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-devanagari: "Noto Serif Devanagari", serif;
+
+  --color-ivory: #FBF8F3;
+  --color-limestone: #F3EDE3;
+  --color-sandstone: #E5DCD0;
+  --color-maroon: #7A0806;
+  --color-maroon-deep: #580605;
+  --color-maroon-dark: #25090A;
+  --color-saffron: #D9690A;
+  --color-gold: #A68247;
+  --color-charcoal: #1F1A17;
+  --color-stone-muted: #655C54;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    background-color: #FBF8F3;
+    color: #1F1A17;
+  }
+
+  h1, h2, h3, .font-editorial {
+    font-family: var(--font-serif);
+    text-wrap: balance;
+  }
+
+  .font-devanagari {
+    font-family: var(--font-devanagari);
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+
+  *:focus-visible {
+    outline: 2px solid #7A0806;
+    outline-offset: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

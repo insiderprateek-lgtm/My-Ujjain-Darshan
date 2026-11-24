@@ -1,0 +1,6 @@
+{
+  "name": "My Ujjain Darshan",
+  "description": "Curated spiritual journeys, Mahakaleshwar temple travel planning, private transport, and sacred heritage tours across Ujjain, Omkareshwar, Maheshwar, and Madhya Pradesh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
