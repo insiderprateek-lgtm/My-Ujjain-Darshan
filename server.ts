@@ -3,6 +3,7 @@ import express, { Request, Response } from 'express';
 import path from 'path';
 import crypto from 'crypto';
 import { fileURLToPath } from 'url';
+import type { Server } from 'node:http';
 import { asc, desc, eq } from 'drizzle-orm';
 
 import { db } from './src/db/index.ts';
@@ -1375,7 +1376,7 @@ ${allPaths
 // VITE DEV / STATIC PRODUCTION SERVING
 // ============================================================================
 
-async function startServer() {
+export async function startServer(existingServer?: Server) {
   if (process.env.NODE_ENV !== 'production') {
     const { createServer: createViteServer } = await import('vite');
     const vite = await createViteServer({
@@ -1391,9 +1392,18 @@ async function startServer() {
     });
   }
 
+  if (existingServer) {
+    existingServer.on('request', app);
+    console.log('My Ujjain Darshan application is ready.');
+    return;
+  }
+
   app.listen(PORT, '0.0.0.0', () => {
     console.log(`My Ujjain Darshan server listening on http://0.0.0.0:${PORT}`);
   });
 }
 
-void startServer();
+// Direct local execution (for example, `npm start`) retains the original behavior.
+if (process.argv[1]?.endsWith('server.ts')) {
+  void startServer();
+}
