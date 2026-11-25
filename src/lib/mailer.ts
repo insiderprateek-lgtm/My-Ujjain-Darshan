@@ -1,7 +1,8 @@
 import nodemailer from 'nodemailer';
 import { BRAND } from '../data/brand.ts';
 
-export const DEFAULT_LEAD_RECIPIENT_EMAIL = 'insiderprateek@gmail.com';
+// Keep every website form and Travel Buddy lead in one shared inbox.
+export const DEFAULT_LEAD_RECIPIENT_EMAIL = 'myujjaindarshan@gmail.com';
 
 export interface LeadEmailPayload {
   referenceCode: string;
@@ -40,11 +41,7 @@ function escapeHtml(value: unknown): string {
 }
 
 export function getLeadRecipientEmail(): string {
-  return (
-    process.env.LEAD_NOTIFICATION_EMAIL?.trim() ||
-    process.env.OPERATOR_NOTIFICATION_EMAIL?.trim() ||
-    DEFAULT_LEAD_RECIPIENT_EMAIL
-  );
+  return DEFAULT_LEAD_RECIPIENT_EMAIL;
 }
 
 function buildLeadEmailContent(lead: LeadEmailPayload): {
@@ -161,8 +158,8 @@ function buildLeadEmailContent(lead: LeadEmailPayload): {
 }
 
 /**
- * Forwards captured customer leads to insiderprateek@gmail.com (or configured
- * LEAD_NOTIFICATION_EMAIL) via SMTP (nodemailer) or Resend HTTPS API.
+ * Forwards captured customer leads to the My Ujjain Darshan shared inbox via
+ * SMTP (nodemailer) or Resend HTTPS API.
  */
 export async function sendLeadNotificationEmail(
   lead: LeadEmailPayload
