@@ -171,6 +171,17 @@ export function Footer() {
             <p className="text-[#8E8478]">
               Independent spiritual travel planner. Temple rituals, darshan schedules, and Bhasma Aarti permissions remain under respective official temple trusts.
             </p>
+            <p className="text-[#8E8478]">
+              Made with love by{' '}
+              <a
+                href="https://additude.in"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white underline underline-offset-4 transition-colors"
+              >
+                additude.in
+              </a>
+            </p>
           </div>
           <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
             <Link to="/privacy-policy" className="hover:text-white transition-colors">
