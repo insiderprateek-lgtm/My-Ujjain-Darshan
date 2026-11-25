@@ -76,7 +76,7 @@ export function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-40 transition-colors duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-[100] transition-colors duration-300 ${
         isTransparent
           ? 'bg-gradient-to-b from-black/65 via-black/30 to-transparent'
           : 'bg-[#FBF8F3]/96 backdrop-blur-md border-b border-[#E6DDD0]'
@@ -308,7 +308,7 @@ export function Header() {
           role="dialog"
           aria-modal="true"
           aria-label="Mobile Navigation"
-          className="lg:hidden fixed inset-0 top-[76px] bg-[#FBF8F3] z-50 overflow-y-auto px-6 py-6 flex flex-col justify-between"
+          className="lg:hidden fixed inset-x-0 bottom-0 top-[76px] bg-[#FBF8F3] z-[110] overflow-y-auto overscroll-contain px-6 py-6 flex flex-col justify-between shadow-2xl"
         >
           <div className="space-y-1">
             <Link
