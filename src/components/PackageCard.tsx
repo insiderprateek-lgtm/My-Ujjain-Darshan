@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Bookmark, Check, Scale } from 'lucide-react';
 import type { PublicPackage } from '../types/models.ts';
-import { buildPackageWhatsAppMessage, buildWhatsAppUrl } from '../data/brand.ts';
+import { buildPackageWhatsAppMessage, buildWhatsAppUrl, MEDIA } from '../data/brand.ts';
 import { useSiteData } from '../context/SiteDataContext.tsx';
 import { ResilientImage } from './ResilientImage.tsx';
 import { trackEvent } from '../lib/seo.ts';
@@ -20,6 +20,11 @@ export function PackageCard({ pkg, showCompareControls = true }: PackageCardProp
     pkg.slug === 'ujjain-darshan' ? '/ujjain-darshan' : `/packages/${pkg.slug}`;
   const isSaved = savedSlugs.includes(pkg.slug);
   const isCompared = compareSlugs.includes(pkg.slug);
+  // The signature Ujjain card always uses our local, verified Mahakaleshwar image.
+  // This prevents an old or externally edited package image URL from leaving the
+  // first card on the home page blank.
+  const cardImage =
+    pkg.slug === 'ujjain-darshan' ? MEDIA.mahakaleshwarTemple : pkg.featuredImage;
 
   const waHref = buildWhatsAppUrl(
     buildPackageWhatsAppMessage({
@@ -32,7 +37,7 @@ export function PackageCard({ pkg, showCompareControls = true }: PackageCardProp
       <div>
         <Link to={detailPath} className="block relative aspect-[4/3] overflow-hidden bg-[#261211]">
           <ResilientImage
-            src={pkg.featuredImage}
+            src={cardImage}
             alt={pkg.name}
             sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
             className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
