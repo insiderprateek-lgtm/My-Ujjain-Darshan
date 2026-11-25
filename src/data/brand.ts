@@ -109,8 +109,13 @@ export interface SacredLandmark {
   coordinates: { lat: number; lng: number };
   mapPosition: { x: number; y: number };
   image: string;
+  photoCredit: string;
+  photoSourceUrl: string;
   destinationSlug: string;
 }
+
+const commonsImage = (filename: string) =>
+  `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(filename)}?width=1600`;
 
 export const UJJAIN_LANDMARKS: SacredLandmark[] = [
   {
@@ -128,7 +133,9 @@ export const UJJAIN_LANDMARKS: SacredLandmark[] = [
       'Darshan queues, dress etiquette, and special ritual permissions (including Bhasma Aarti) are managed exclusively by the Shri Mahakaleshwar Temple Management Committee via its official portal.',
     coordinates: { lat: 23.1828, lng: 75.7682 },
     mapPosition: { x: 46, y: 54 },
-    image: MEDIA.mahakaleshwarTemple,
+    image: commonsImage('Mahakaleshwar Temple, Ujjain.jpg'),
+    photoCredit: 'Ashverse · CC BY-SA 4.0',
+    photoSourceUrl: 'https://commons.wikimedia.org/wiki/File:Mahakaleshwar_Temple,_Ujjain.jpg',
     destinationSlug: 'ujjain',
   },
   {
@@ -146,7 +153,9 @@ export const UJJAIN_LANDMARKS: SacredLandmark[] = [
       'Best experienced during early morning light or after dusk when the sandstone pillars and Shiva sculptures are warmly illuminated; electric shuttle carts are often available inside the corridor for senior visitors.',
     coordinates: { lat: 23.1811, lng: 75.7661 },
     mapPosition: { x: 42, y: 60 },
-    image: MEDIA.mahakalCorridor,
+    image: commonsImage('CORRIDOR OF UJJAIN.jpg'),
+    photoCredit: 'Imakanksha · CC BY-SA 4.0',
+    photoSourceUrl: 'https://commons.wikimedia.org/wiki/File:CORRIDOR_OF_UJJAIN.jpg',
     destinationSlug: 'ujjain',
   },
   {
@@ -164,7 +173,9 @@ export const UJJAIN_LANDMARKS: SacredLandmark[] = [
       'Located a short walk from Mahakaleshwar and Ram Ghat. Evening lighting of the deep stambhas on auspicious occasions creates a memorable devotional atmosphere.',
     coordinates: { lat: 23.1856, lng: 75.7652 },
     mapPosition: { x: 39, y: 47 },
-    image: MEDIA.harsiddhiTemple,
+    image: commonsImage('Harsiddhi Temple, Ujjain 01.jpg'),
+    photoCredit: 'Wikimedia Commons · CC BY-SA',
+    photoSourceUrl: 'https://commons.wikimedia.org/wiki/Category:Harsiddhi_Mata_Temple',
     destinationSlug: 'ujjain',
   },
   {
@@ -182,7 +193,9 @@ export const UJJAIN_LANDMARKS: SacredLandmark[] = [
       'Plan a calm twilight visit after Harsiddhi Mata darshan. Wear easily removable footwear and exercise care on damp stone steps along the river edge.',
     coordinates: { lat: 23.1869, lng: 75.7629 },
     mapPosition: { x: 30, y: 46 },
-    image: MEDIA.ramGhatRiverfront,
+    image: commonsImage('Ram Ghat, Ujjain 01.jpg'),
+    photoCredit: 'Wikimedia Commons · CC BY-SA',
+    photoSourceUrl: 'https://commons.wikimedia.org/wiki/Category:Ram_Ghat,_Ujjain',
     destinationSlug: 'ujjain',
   },
   {
@@ -200,7 +213,9 @@ export const UJJAIN_LANDMARKS: SacredLandmark[] = [
       'Best grouped with Mangalnath Temple, Gadkalika Temple, and Sandipani Ashram on the northern sightseeing loop to minimize city traffic crossings.',
     coordinates: { lat: 23.2192, lng: 75.7746 },
     mapPosition: { x: 56, y: 20 },
-    image: MEDIA.kalBhairavTemple,
+    image: commonsImage('Kal Bhairav temple Ujjain.jpg'),
+    photoCredit: 'Utkarsh Atmaram · CC BY-SA 4.0',
+    photoSourceUrl: 'https://commons.wikimedia.org/wiki/File:Kal_Bhairav_temple_Ujjain.jpg',
     destinationSlug: 'ujjain',
   },
   {
@@ -218,7 +233,9 @@ export const UJJAIN_LANDMARKS: SacredLandmark[] = [
       'Tuesdays see higher devotional footfall. Morning visits offer clearer river views and cooler stone courtyards.',
     coordinates: { lat: 23.2248, lng: 75.7764 },
     mapPosition: { x: 63, y: 14 },
-    image: MEDIA.mangalnathTemple,
+    image: commonsImage('Mangalnath Ujjain.JPG'),
+    photoCredit: 'V. Narsikar · CC BY-SA 3.0',
+    photoSourceUrl: 'https://commons.wikimedia.org/wiki/File:Mangalnath_Ujjain.JPG',
     destinationSlug: 'ujjain',
   },
   {
@@ -236,7 +253,9 @@ export const UJJAIN_LANDMARKS: SacredLandmark[] = [
       'A calm, shade-filled stop ideal for families traveling with children and elderly pilgrims seeking unhurried reflection between major temples.',
     coordinates: { lat: 23.214, lng: 75.7809 },
     mapPosition: { x: 70, y: 28 },
-    image: MEDIA.sandipaniAshram,
+    image: commonsImage('Sandipani ashram of ujjain.jpg'),
+    photoCredit: 'Snay015 · CC BY-SA 4.0',
+    photoSourceUrl: 'https://commons.wikimedia.org/wiki/File:Sandipani_ashram_of_ujjain.jpg',
     destinationSlug: 'ujjain',
   },
   {
@@ -254,7 +273,9 @@ export const UJJAIN_LANDMARKS: SacredLandmark[] = [
       'Located outside the dense central bazaar along the southwestern approach, making it a natural opening or closing stop for journeys connecting with Indore Airport.',
     coordinates: { lat: 23.1494, lng: 75.7294 },
     mapPosition: { x: 20, y: 80 },
-    image: MEDIA.chintamanGanesh,
+    image: commonsImage('Chintaman Ganesh.jpg'),
+    photoCredit: 'Ankursoni003 · CC BY-SA 4.0',
+    photoSourceUrl: 'https://commons.wikimedia.org/wiki/File:Chintaman_Ganesh.jpg',
     destinationSlug: 'ujjain',
   },
   {
@@ -272,7 +293,9 @@ export const UJJAIN_LANDMARKS: SacredLandmark[] = [
       'Best reached by walking or e-rickshaw from the Mahakal area due to narrow heritage market lanes.',
     coordinates: { lat: 23.1843, lng: 75.7712 },
     mapPosition: { x: 55, y: 52 },
-    image: MEDIA.gopalMandir,
+    image: commonsImage('Shikhara of Shri Dwarkadhish Gopal Mandir.jpg'),
+    photoCredit: 'Kirti benal · CC BY-SA 4.0',
+    photoSourceUrl: 'https://commons.wikimedia.org/wiki/File:Shikhara_of_Shri_Dwarkadhish_Gopal_Mandir.jpg',
     destinationSlug: 'ujjain',
   },
   {
@@ -290,7 +313,9 @@ export const UJJAIN_LANDMARKS: SacredLandmark[] = [
       'Conveniently paired with Kal Bhairav and Bhartrihari Caves on the northern heritage circuit.',
     coordinates: { lat: 23.2116, lng: 75.7688 },
     mapPosition: { x: 48, y: 29 },
-    image: MEDIA.gadkalikaTemple,
+    image: commonsImage('GARH KALIKA OVERVIEW.jpg'),
+    photoCredit: 'Sunil Ujjain · CC BY-SA 4.0',
+    photoSourceUrl: 'https://commons.wikimedia.org/wiki/File:GARH_KALIKA_OVERVIEW.jpg',
     destinationSlug: 'ujjain',
   },
 ];
