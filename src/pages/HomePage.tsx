@@ -503,6 +503,16 @@ export function HomePage() {
                   className="w-full h-full object-cover"
                 />
               </div>
+              <div className="px-4 py-2 bg-[#F7F2E9] text-[10px] text-[#655C54] text-right">
+                <a
+                  href={activeLandmark.photoSourceUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline underline-offset-2 hover:text-[#7A0806]"
+                >
+                  Photo: {activeLandmark.photoCredit}
+                </a>
+              </div>
               <div className="p-7 sm:p-9 space-y-5">
                 <div className="flex flex-wrap items-center justify-between gap-2 text-xs text-[#655C54]">
                   <span>
