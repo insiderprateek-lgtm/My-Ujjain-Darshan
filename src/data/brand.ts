@@ -19,6 +19,7 @@ export const BRAND = {
  */
 export const MEDIA = {
   // Ujjain & Temples
+  mahakaleshwarHero: IMAGE_ASSETS.mahakaleshwarHero.src,
   mahakaleshwarTemple: IMAGE_ASSETS.mahakaleshwarTemple.src,
   mahakaleshwarDay: IMAGE_ASSETS.mahakaleshwarDay.src,
   mahakalCorridor: IMAGE_ASSETS.mahakalLok.src,

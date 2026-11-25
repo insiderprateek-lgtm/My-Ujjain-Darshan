@@ -101,12 +101,12 @@ export function HomePage() {
           className="absolute inset-0"
         >
           <ResilientImage
-            src={MEDIA.mahakaleshwarTemple}
-            alt="Shri Mahakaleshwar Jyotirlinga Temple shikhara illuminated at twilight in Ujjain, Madhya Pradesh"
+            src={MEDIA.mahakaleshwarHero}
+            alt="Illuminated Shri Mahakaleshwar Jyotirlinga Temple at night in Ujjain, Madhya Pradesh"
             loading="eager"
             fetchPriority="high"
             sizes="100vw"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-[center_43%]"
           />
         </motion.div>
 
