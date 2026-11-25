@@ -74,7 +74,7 @@ When `VITE_GA4_MEASUREMENT_ID` or `VITE_GTM_ID` is connected, the platform stand
 - `package_view` — User opens a package detail or `/ujjain-darshan` page
 - `package_enquiry_click` — User clicks "Enquire / Customize" from a package card or detail view
 - `whatsapp_click` — User clicks any header, footer, card, or floating WhatsApp CTA
-- `phone_click` — User taps any `tel:+919522233375` call action
+- `phone_click` — User taps any `tel:+919009336669` call action
 - `planner_start` — User starts the 4-step `/plan-your-journey` flow
 - `planner_complete` — User advances to final review step of the planner
 - `enquiry_submit` — Validated enquiry successfully saved to PostgreSQL

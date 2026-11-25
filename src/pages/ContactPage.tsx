@@ -9,7 +9,7 @@ export function ContactPage() {
   usePageSeo({
     title: 'Contact My Ujjain Darshan — Phone & WhatsApp Concierge',
     description:
-      'Connect directly with My Ujjain Darshan in Ujjain, Madhya Pradesh via phone or WhatsApp (+91 95222 33375) for Ujjain Darshan packages and custom quotations.',
+      'Connect directly with My Ujjain Darshan in Ujjain, Madhya Pradesh via phone or WhatsApp (+91 90093 36669 or +91 90093 46669) for Ujjain Darshan packages and custom quotations.',
     canonicalPath: '/contact',
   });
 
@@ -39,13 +39,18 @@ export function ContactPage() {
             <p className="text-sm text-[#574F48]">
               Direct telephone assistance for itinerary enquiries and pickup coordination.
             </p>
-            <a
-              href={BRAND.phoneHref}
-              onClick={() => trackEvent('phone_click', { source: 'contact_page' })}
-              className="inline-block text-lg font-semibold text-[#7A0806] tabular-nums hover:underline"
-            >
-              {BRAND.phoneDisplay}
-            </a>
+            <div className="space-y-1">
+              {BRAND.contactPhones.map((phone) => (
+                <a
+                  key={phone.href}
+                  href={phone.href}
+                  onClick={() => trackEvent('phone_click', { source: 'contact_page' })}
+                  className="block text-lg font-semibold text-[#7A0806] tabular-nums hover:underline"
+                >
+                  {phone.display}
+                </a>
+              ))}
+            </div>
           </div>
 
           <div className="bg-white border border-[#E5DCD0] p-7 space-y-4">
@@ -56,16 +61,21 @@ export function ContactPage() {
             <p className="text-sm text-[#574F48]">
               Fastest way to share your arrival dates, traveler count, and receive written itineraries.
             </p>
-            <a
-              href={buildWhatsAppUrl()}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={() => trackEvent('whatsapp_click', { source: 'contact_page' })}
-              className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#1B6E41] hover:bg-[#145532] text-white text-xs font-semibold rounded-sm"
-            >
-              <span>Message on WhatsApp</span>
-              <ArrowRight className="w-3.5 h-3.5" />
-            </a>
+            <div className="flex flex-wrap gap-2">
+              {BRAND.contactPhones.map((phone, index) => (
+                <a
+                  key={phone.whatsappNumber}
+                  href={index === 0 ? buildWhatsAppUrl() : `https://wa.me/${phone.whatsappNumber}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => trackEvent('whatsapp_click', { source: 'contact_page' })}
+                  className="inline-flex items-center gap-2 px-4 py-2.5 bg-[#1B6E41] hover:bg-[#145532] text-white text-xs font-semibold rounded-sm"
+                >
+                  <span>WhatsApp {phone.display}</span>
+                  <ArrowRight className="w-3.5 h-3.5" />
+                </a>
+              ))}
+            </div>
           </div>
 
           <div className="bg-white border border-[#E5DCD0] p-7 space-y-4">

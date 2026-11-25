@@ -31,7 +31,7 @@ const LEGAL_DOCS: Record<
       },
       {
         heading: '3. Data Retention & Security',
-        body: 'Enquiry records are stored in a secured database accessible only to authorized My Ujjain Darshan administrators. We never sell or rent customer phone numbers or personal data to third-party telemarketers. You may request deletion of your enquiry records by contacting +91 95222 33375.',
+        body: 'Enquiry records are stored in a secured database accessible only to authorized My Ujjain Darshan administrators. We never sell or rent customer phone numbers or personal data to third-party telemarketers. You may request deletion of your enquiry records by contacting +91 90093 36669 / +91 90093 46669.',
       },
       {
         heading: '4. Analytics & Cookies',
@@ -71,7 +71,7 @@ const LEGAL_DOCS: Record<
       },
       {
         heading: '2. Advance Notice',
-        body: 'If your travel dates or flight timings change, please inform our Ujjain team as early as possible via WhatsApp or telephone (+91 95222 33375) so vehicle scheduling can be adjusted smoothly.',
+        body: 'If your travel dates or flight timings change, please inform our Ujjain team as early as possible via WhatsApp or telephone (+91 90093 36669 / +91 90093 46669) so vehicle scheduling can be adjusted smoothly.',
       },
       {
         heading: '3. Third-Party Reservations',

@@ -10,7 +10,7 @@ This document records the provenance, pricing approval status, unconfirmed opera
 | :--- | :--- | :--- |
 | Brand Name | My Ujjain Darshan | Confirmed by owner |
 | Location | Ujjain, Madhya Pradesh, India | Confirmed by owner |
-| Primary Phone & WhatsApp | `+91 95222 33375` (`tel:+919522233375`, `https://wa.me/919522233375`) | Confirmed by owner |
+| Primary Phone & WhatsApp | `+91 90093 36669 / +91 90093 46669` (`tel:+919009336669`, `https://wa.me/919009336669`) | Confirmed by owner |
 | Primary Logo (Circular Emblem) | `/assets/aistudio/D55FF91E-6864-4966-9A29-0800E0A51B39_b2dc8462.PNG` | Owner-supplied official asset |
 | Horizontal Wordmark | `/assets/aistudio/F4EF5D88-E12D-4CE6-B306-162D7CF8255E_3b22a7af.PNG` | Owner-supplied official asset |
 | Physical Street Address | Not published publicly (only city/state shown) | Pending owner confirmation |

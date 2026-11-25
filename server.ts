@@ -390,7 +390,7 @@ const TRAVEL_BUDDY_RESPONSE_SCHEMA = {
     reply: {
       type: Type.STRING,
       description:
-        'Helpful, accurate, concise answer from Travel Buddy grounded strictly in verified My Ujjain Darshan knowledge. If unsure, politely state that and include the direct customer support number +91 95222 33375.',
+        'Helpful, accurate, concise answer from Travel Buddy grounded strictly in verified My Ujjain Darshan knowledge. If unsure, politely state that and include the direct customer support number +91 90093 36669 / +91 90093 46669.',
     },
     needsHumanSupport: {
       type: Type.BOOLEAN,

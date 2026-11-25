@@ -692,7 +692,7 @@ export function HomePage() {
                 {
                   num: '04',
                   title: 'Direct WhatsApp & Phone Access',
-                  desc: 'Speak directly with our Ujjain planning team on +91 95222 33375 without automated call centers or hidden middlemen.',
+                  desc: 'Speak directly with our Ujjain planning team on +91 90093 36669 / +91 90093 46669 without automated call centers or hidden middlemen.',
                 },
                 {
                   num: '05',

@@ -94,12 +94,12 @@ function renderSafeMessageText(text: string): React.ReactNode {
 
   const renderInlineTokens = (line: string, lineKey: number) => {
     const tokenRegex =
-      /(\+91\s?95222\s?33375|https:\/\/shrimahakaleshwar\.com\/?|\*\*[^*]+\*\*)/g;
+      /(\+91\s?90093\s?(?:36669|46669)|https:\/\/shrimahakaleshwar\.com\/?|\*\*[^*]+\*\*)/g;
     const parts = line.split(tokenRegex);
 
     return parts.map((part, idx) => {
       if (!part) return null;
-      if (/^\+91\s?95222\s?33375$/.test(part)) {
+      if (/^\+91\s?90093\s?(?:36669|46669)$/.test(part)) {
         return (
           <a
             key={`${lineKey}-${idx}`}

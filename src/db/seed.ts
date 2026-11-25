@@ -205,8 +205,8 @@ async function runSeed(): Promise<void> {
   }
 
   const defaultSettings: { key: string; value: string }[] = [
-    { key: 'brandPhone', value: '+91 95222 33375' },
-    { key: 'brandWhatsapp', value: '919522233375' },
+    { key: 'brandPhone', value: '+91 90093 36669 / +91 90093 46669' },
+    { key: 'brandWhatsapp', value: '919009336669' },
     { key: 'brandLocation', value: 'Ujjain, Madhya Pradesh, India' },
     { key: 'contactEmail', value: '' },
     { key: 'instagramUrl', value: '' },

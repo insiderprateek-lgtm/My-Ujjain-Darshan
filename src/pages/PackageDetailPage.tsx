@@ -104,7 +104,7 @@ export function PackageDetailPage({ forcedSlug }: { forcedSlug?: string }) {
           provider: {
             '@type': 'TravelAgency',
             name: BRAND.name,
-            telephone: '+919522233375',
+            telephone: '+919009336669',
           },
         }
       : null,

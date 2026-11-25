@@ -342,7 +342,7 @@ export const SEED_FAQS: SeedFaq[] = [
     category: 'Pricing & Quotations',
     question: 'How do I receive an accurate quotation for my journey?',
     answer:
-      'Because vehicle category, travel dates, pickup hub, and customization vary by family, pricing is shared transparently on request until published rates are officially approved. Submit your preferences via our Plan Your Journey form or WhatsApp (+91 95222 33375) to receive a clear written quotation.',
+      'Because vehicle category, travel dates, pickup hub, and customization vary by family, pricing is shared transparently on request until published rates are officially approved. Submit your preferences via our Plan Your Journey form or WhatsApp (+91 90093 36669 / +91 90093 46669) to receive a clear written quotation.',
     displayOrder: 5,
   },
   {
